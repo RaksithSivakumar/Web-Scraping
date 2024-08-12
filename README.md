@@ -1,13 +1,13 @@
-Web Scraping and Data Insertion into MySQL Database
+**Web Scraping and Data Insertion into MySQL Database**
 
-Description
+**Description**
 This project involves scraping data from a Wikipedia page listing the largest companies in the United States by revenue. The scraped data is then stored in a MySQL database. The project is divided into three main parts:
 
 Web Scraping: Using the requests library to fetch the web page and BeautifulSoup to parse the HTML content and extract the relevant data.
 Data Processing: Organizing the extracted data into a pandas DataFrame for easy manipulation and storage.
 Data Insertion into MySQL: Connecting to a MySQL database, creating a table (if it doesn't exist), and inserting the scraped data into the table.
 
-Requirements
+**Requirements**
 Python 3.x
 Libraries:
 requests
@@ -16,20 +16,22 @@ pandas
 mysql-connector-python
 MySQL Database
 
-Setup and Installation
+**Setup and Installation**
 
 Clone the repository:
-git clone https://github.com/your-username/web-scraping-mysql.git
+git clone https://github.com/RaksithSivakumar/Web-Scraping.git
+
 cd web-scraping-mysql
 
 Install the required Python libraries:
 pip install requests beautifulsoup4 pandas mysql-connector-python
 
-Set up your MySQL Database:
+**Set up your MySQL Database:**
 Install MySQL and create a database named companies_db.
 Update the MySQL connection details in the script if necessary (e.g., host, user, password).
 
 Running the Script
+
 Run the script:
 python scrape_and_store.py
 
@@ -39,7 +41,7 @@ Parse and organize the data into a pandas DataFrame.
 Connect to the MySQL database and create the largest_companies table if it doesn't already exist.
 Insert the data into the largest_companies table.
 
-MySQL Table Structure
+**MySQL Table Structure**
 
 The table largest_companies will have the following structure:
 
@@ -50,7 +52,7 @@ revenue (FLOAT): The revenue of the company (in billions).
 employees (INT): The number of employees.
 headquarters (VARCHAR(255)): The location of the company's headquarters.
 
-Example Output
+**Example Output**
 
 After running the script, the MySQL table will be populated with data that looks like this:
 rank	name	industry	revenue	employees	headquarters
@@ -58,8 +60,8 @@ rank	name	industry	revenue	employees	headquarters
 2	Amazon.com	Technology	280.52	798000	Seattle, WA
 ...	...	...	...	...	...
 Error Handling
-The script includes error handling to:
 
+The script includes error handling to:
 Capture and report MySQL connection issues.
 Ensure the MySQL connection is properly closed after execution.
 Future Improvements
@@ -69,11 +71,11 @@ Data Updates: Create a scheduled task or cron job to periodically update the dat
 License
 This project is licensed under the MIT License. Feel free to use and modify the code for your own projects.
 
-Author
+**Author**
 Your Name
 Email: your: risivandev@gmail.com
-GitHub: https://github.com/RaksithSivakumar
+GitHub: https:https://github.com/RaksithSivakumar
 
-Acknowledgements
+**Acknowledgements**
 Thanks to Wikipedia for providing the data.
 Thanks to the open-source community for the libraries used in this project.
