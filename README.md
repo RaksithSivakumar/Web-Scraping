@@ -72,9 +72,9 @@ License
 This project is licensed under the MIT License. Feel free to use and modify the code for your own projects.
 
 **Author**
-Your Name
+Raksith
 Email: your: risivandev@gmail.com
-GitHub: https:https://github.com/RaksithSivakumar
+GitHub: https://github.com/RaksithSivakumar
 
 **Acknowledgements**
 Thanks to Wikipedia for providing the data.
